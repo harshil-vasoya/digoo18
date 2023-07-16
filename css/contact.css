@@ -1,0 +1,97 @@
+.contact-us-hedding{
+    text-align: center;
+}
+.contact-us-hedding h1{
+    font-size: 3rem;
+    font-family:'Alex Brush', cursive;
+    color: #2C334B;
+    margin: 2rem 0;
+}
+.contact-us .box-container{
+    width: 100%;
+    height: 32vh;
+    display: flex;  
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content:space-around;
+}
+*{
+font-family: 'Times New Roman', Times, serif;
+}
+.contact-us .box-container .box{
+    text-align: center;
+    /* border-right: 1px solid hsla(0,0%,80%,.4); */
+    height: 100%;
+    /* flex-basis: 22%; */
+    width: 22%;
+
+}
+.border-none{
+    border: none !important;
+}
+.contact-us .box-container .box i{
+    font-size: 4rem;
+    color: #2C334B;
+    margin-bottom: 1rem;
+}
+.fa-solid{
+    padding-top: 1rem;
+    color: #2C334B;
+
+}
+
+.contact-us .box-container .box h3{
+    margin: 1rem 0;
+    font-size: 1.5rem ;
+    font-weight: bold;
+}
+.contact-us .box-container .box p{
+    font-size: 1rem;
+    line-height: 1rem;
+    color: gray;
+}
+.contact-us-form-row{
+    width: 70%;
+    margin:3rem auto;
+}
+.form-contaniner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-form-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 32vw;
+    gap: 1rem;
+}
+.left-form-container input{
+    height: 5vh;
+    border-style: none;
+    border: 2px solid rgba(128, 128, 128, 0.599);
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+}
+.righ-form-container textarea{
+    height: 20vh;
+    width: 32vw;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgba(128, 128, 128, 0.599);
+}
+.contact-us-form-row form button{
+    width: 6rem;
+    height: 3rem;
+    border-style: none;
+    background-color: #2C334B;
+    color:white;
+    border-radius: 3rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+.contact-us-map{
+    margin: auto;
+    width: 95%;
+    height: 50vh;
+    margin-bottom: 2rem;
+}

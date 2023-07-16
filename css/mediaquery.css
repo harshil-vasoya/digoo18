@@ -1,0 +1,68 @@
+@media screen and (max-width:600px) {
+
+	.burger-btn{
+		display: flex;
+	}
+	.links{
+		display: none;
+	}
+	.banner-section{
+		background-image: url("../images/Super-1.png");
+	}
+	
+	
+	/* content section mediaquary */
+	.contact-section .contact-us .box-container{
+        display: block;
+        width: 100%;
+        margin: 2rem 0;
+        height: auto;
+    }
+	.contact-section .contact-us .box-container .box{
+        width: 100%;
+        margin: 2rem 0;
+        height: fit-content;
+    }
+	.contact-section .contact-us .contact-us-form-row .form-contaniner{
+		display: block;
+		width: 100%;
+	}
+	.contact-section .contact-us .contact-us-form-row .form-contaniner .left-form-container,
+	.contact-section .contact-us .contact-us-form-row .form-contaniner .righ-form-container{
+		display: block;
+		width: 100%;
+	}
+	.contact-section .contact-us .contact-us-form-row .form-contaniner .left-form-container > input,
+	.contact-section .contact-us .contact-us-form-row .form-contaniner .righ-form-container > textarea{
+		width: 100%;
+		margin-bottom: 0.5rem;
+	}
+	.details-mobile-view{
+		display: block;
+	}
+	.single-product div img{
+		width: 100%;
+		margin-bottom: 3rem;
+	}
+	.media-quary-section{
+		display: block;
+		width: 100%;
+		padding: 4rem;
+	  }
+	.footer-media{
+		display: block;
+		
+	}
+	#card-img{
+        width: 80vw;
+    }
+	.title-1::after,
+	.title-1::before{
+		width: 10%;
+	}
+	.card-2812{
+		justify-content: center !important;
+	}
+
+
+}

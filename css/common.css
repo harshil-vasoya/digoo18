@@ -1,0 +1,232 @@
+
+*{
+    margin: 0;
+    padding: 0;
+/* outline: 1px solid greenyellow; 
+	background: rgb(0 10 0/0.1);  */
+}
+.navigation-bar{
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem 1rem;
+	background-color: var(--dark);
+	color : var(--light);
+	position:relative;
+	top: 0;
+	z-index: 10;
+	align-items: center;
+}
+.brand-name{
+	font-size: 2rem;
+	color:#00bfff;
+}
+.brand-name:hover{
+	font-size: 4rem;
+}
+.links>a{
+	text-decoration: none;
+	color: var(--light);
+	margin: 0 1rem;
+}
+
+/* buger button */
+
+.burger-btn{
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 2rem;
+    height: 1.5rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 1rem;
+    transition: 0.3s;
+}
+.burger-btn:hover{
+    transform: scale(1.1);
+}
+.burger-bar{
+    background-color: var(--light);
+    width: 100%;
+    height: 15%;
+    display: block;
+    border-radius: 1rem;
+}
+
+	/* Navigation Bar for mobile */
+.navigation-bar-mobile {
+	background-color: var(--dark);
+	color: white;
+	display: none;
+    position: fixed;
+    flex-direction: column;
+	align-items: center;
+    justify-content: space-around;
+	top: 0;
+	right: 0;
+    height: 100vh;
+    width: 70vw;
+	padding: 5rem 0;
+	text-align: center;
+    z-index: 2;
+}
+.navigation-bar-mobile>a{
+	width: fit-content;
+	padding: 2rem;
+}
+.links>a:hover{
+	border-bottom: 1px solid greenyellow;
+}
+
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+.title-1::before {
+    content: "";
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    width: 20%;
+    height: 2px;
+    background: linear-gradient(45deg, #a67c57, transparent);
+}
+
+.title-1 {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+.title-1::after {
+    content: "";
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 20%;
+    height: 2px;
+    background: linear-gradient(-45deg, #a67c57, transparent);
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+.sec-3{
+    width: 80vw;
+    margin: 2rem auto !important;
+}
+
+.sec-4{
+    text-align: center;
+    padding: 2rem 0;
+}
+.flex-a {
+    display: flex;
+    justify-content: space-around;
+}
+.sec-4>div{
+    background-color: #F5F7FF;
+}
+.sec-4 i{
+    font-size: 7rem;
+    color: #34495E;
+}
+
+.box-12{
+    padding: 1rem;
+}
+
+
+.banner{
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+}
+.banner-section{
+	height: 111vh;
+	width: 100vw;
+	background-image: url("../images/Super-2.png");
+	background-size: cover;
+	background-position: center;
+}
+/* product */
+.product-img-div > img{
+	border-radius: 10px;
+	/* border: 2px solid black; */
+	box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.product-container-product{
+	margin: 1rem;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	width: 300px;
+	padding: 2rem 0;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.product-container-product img{
+	width: 250px;
+	height: 250px;
+	
+}
+
+
+.backbutton{
+	background-color: #f1f1f1;
+   color: black;
+}
+
+/* Footer */
+
+.footer{
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem 1rem;
+	border:1px solid var(--dark);
+}
+footer .contact{
+	text-align: right;
+}
+
+
+.my-hr{
+	width: 70vw;
+	background-color: var(--dark);
+	margin: 1rem auto;
+	height: 3px;
+}
+.jugad{
+	font-size: 0.7rem;
+}
+
+.contact-box{
+font-family: 'Times New Roman', Times, serif;
+	
+}
+
+
+.all-iteminone{
+	
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#card-img{
+    margin: 1rem 0;
+    width: 35vw;
+    border-radius: 1rem;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+
+}
+
+#card-img:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 12px, rgba(0, 0, 0, 0.3) 0px 21px 39px -9px, rgba(0, 0, 0, 0.2) 0px -9px 0px inset;
+}
